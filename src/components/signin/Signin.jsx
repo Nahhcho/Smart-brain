@@ -58,6 +58,8 @@ const Signin = () => {
             <form class="measure">
                 <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
                     <legend class="f2 fw6 ph0 mh0">Sign In</legend>
+                    <p>Email: demo1@email.com </p>
+                    <p>Password: 1234 </p>
                         <div class="mt3">
                             <label class="db fw6 lh-copy f6" for="email-address">Email</label>
                             <input onChange={(e) => {setUser({...user, email: e.target.value})}} value={user.email} class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="email" name="email-address"  id="email-address" />

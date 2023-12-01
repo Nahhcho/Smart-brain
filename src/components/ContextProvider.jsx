@@ -9,7 +9,7 @@ const ContextProvider = ({ children }) => {
         PAT: '43f1df10e43b4a5abd81ad68d4447aa1',
         USER_ID: 'clarifai',
         APP_ID: 'main',
-        SERVER_URL: 'http://localhost:3001',
+        SERVER_URL: 'https://nahcho-smart-brain-backend-20f76147d9bb.herokuapp.com',
         user: null
     })
 

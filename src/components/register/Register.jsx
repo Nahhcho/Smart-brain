@@ -30,8 +30,6 @@ const Register = () => {
             setError({...error, warn: false})
             fetch(`${session.SERVER_URL}/register`, {
                 method: 'POST',
-                mode: 'cors',
-                credentials: 'include',
                 headers: {
                     'Content-Type': 'application/json',
                 },
